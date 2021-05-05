@@ -21,6 +21,7 @@
 		14A29C98264357AE00DCBC56 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A29C97264357AE00DCBC56 /* APIClient.swift */; };
 		14A29C9A2643592D00DCBC56 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A29C992643592D00DCBC56 /* Request.swift */; };
 		14A29C9C26435A2A00DCBC56 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A29C9B26435A2A00DCBC56 /* NetworkError.swift */; };
+		14A29C9E26435DBD00DCBC56 /* Encoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A29C9D26435DBD00DCBC56 /* Encoder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		14A29C97264357AE00DCBC56 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		14A29C992643592D00DCBC56 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 		14A29C9B26435A2A00DCBC56 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		14A29C9D26435DBD00DCBC56 /* Encoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encoder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 				14A29C97264357AE00DCBC56 /* APIClient.swift */,
 				14A29C992643592D00DCBC56 /* Request.swift */,
 				14A29C9B26435A2A00DCBC56 /* NetworkError.swift */,
+				14A29C9D26435DBD00DCBC56 /* Encoder.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 				14A29C8D2643500D00DCBC56 /* Movie.swift in Sources */,
 				14A29C7726434B6600DCBC56 /* SceneDelegate.swift in Sources */,
 				14A29C9A2643592D00DCBC56 /* Request.swift in Sources */,
+				14A29C9E26435DBD00DCBC56 /* Encoder.swift in Sources */,
 				14A29C8F2643502200DCBC56 /* MovieSection.swift in Sources */,
 				14A29C9C26435A2A00DCBC56 /* NetworkError.swift in Sources */,
 				14A29C98264357AE00DCBC56 /* APIClient.swift in Sources */,
