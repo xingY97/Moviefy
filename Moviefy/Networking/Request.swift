@@ -13,7 +13,6 @@ public enum HTTPMethod: String{
     case put = "PUT"
     case patch = "PATCH"
     case delete = "DELETE"
-    public static let baseImageURL = URL(string: "https://image.tmdb.org/t/p/w500")!
 }
 
 public enum Route: String{
@@ -21,6 +20,9 @@ public enum Route: String{
 }
 
 struct Request {
+    
+    public static let baseImageURL = URL(string: "https://image.tmdb.org/t/p/w500")!
+    
     static let headers = [
         "Accept":"Application/json",
         "Content-Type":"Applicatoin/json",
@@ -37,6 +39,7 @@ struct Request {
         
         try configureParametersAndHeaders(parameters: parameters, headers: headers, request: &request)
         return request
+        
     }
     
     static func configureParametersAndHeaders(parameters: [String: Any]?,
@@ -50,7 +53,9 @@ struct Request {
         } catch {
             throw NetworkError.encodingFailed
         }
+        
     }
+    
     
     
 }
