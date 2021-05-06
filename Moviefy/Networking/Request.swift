@@ -7,12 +7,13 @@
 
 import Foundation
 
-public enum HTTPMethod: String {
+public enum HTTPMethod: String{
     case get = "GET"
     case post = "POST"
     case put = "PUT"
     case patch = "PATCH"
     case delete = "DELETE"
+    public static let baseImageURL = URL(string: "https://image.tmdb.org/t/p/w500")!
 }
 
 public enum Route: String{

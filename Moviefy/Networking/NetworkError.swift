@@ -9,9 +9,9 @@ import Foundation
 
 public enum NetworkError: String, Error {
     case parametersNil = "Parameters were nil"
-    case encodingDailed = "Parameter Encoding failed"
-    case decodingFailed = "Unable to decode data"
-    case missingURL = "the URL is nil"
+    case encodingFailed = "Parameter Encoding failed"
+    case decodingFailed = "Unable to Decode data"
+    case missingURL = "The URL is nil"
     case couldNotParse = "Unable to parse the JSON response"
     case noData = "Data is nil"
     case fragmentResponse = "Response's body has fragments"
