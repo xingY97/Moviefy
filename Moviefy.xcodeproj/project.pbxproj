@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1493D5AF264B454400CD18B8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1493D5AE264B454400CD18B8 /* LoginViewController.swift */; };
 		149EBC7226449752006DABD1 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 149EBC7126449752006DABD1 /* Kingfisher */; };
 		149EBC7426449793006DABD1 /* TitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 149EBC7326449793006DABD1 /* TitleCell.xib */; };
 		149EBC762644979A006DABD1 /* MovieCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 149EBC752644979A006DABD1 /* MovieCell.xib */; };
@@ -29,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1493D5AE264B454400CD18B8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		149EBC7326449793006DABD1 /* TitleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TitleCell.xib; sourceTree = "<group>"; };
 		149EBC752644979A006DABD1 /* MovieCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MovieCell.xib; sourceTree = "<group>"; };
 		14A29C7126434B6600DCBC56 /* Moviefy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moviefy.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -121,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				14A29C7826434B6600DCBC56 /* ViewController.swift */,
+				1493D5AE264B454400CD18B8 /* LoginViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1493D5AF264B454400CD18B8 /* LoginViewController.swift in Sources */,
 				14A29C912643502A00DCBC56 /* TitleSection.swift in Sources */,
 				14A29C932643503400DCBC56 /* TitleCell.swift in Sources */,
 				14A29C952643503C00DCBC56 /* MovieCell.swift in Sources */,
