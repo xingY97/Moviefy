@@ -40,6 +40,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zPf-Fw-P2g">
                                 <rect key="frame" x="240" y="344" width="54" height="118"/>
                                 <state key="normal" title="Log in"/>
+                                <connections>
+                                    <action selector="LoginButtonTapped:" destination="NO5-3D-R9j" eventType="touchUpInside" id="fHf-Zd-4eU"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="pH9-re-rKa"/>
@@ -55,6 +58,10 @@
                             <constraint firstItem="zPf-Fw-P2g" firstAttribute="leading" secondItem="pH9-re-rKa" secondAttribute="leading" constant="240" id="vco-32-KaZ"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="LogInButton" destination="zPf-Fw-P2g" id="QRj-Gv-fuy"/>
+                        <outlet property="LoggedInAs" destination="Esh-Pc-9KZ" id="abF-a6-6kg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pkd-Rk-uax" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
