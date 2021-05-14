@@ -12,8 +12,7 @@ struct APIClient {
     let session = URLSession(configuration: .default)
     
     let parameters = [
-        "sort_by": "popularity.desc",
-        "api_key": "e876d92222f5e25dbca0fa994d4bafad"
+        "sort_by": "popularity.desc"
     ]
     
     func getPopularMovies(_ completion: @escaping (Result<[Movie]>) -> ()) {

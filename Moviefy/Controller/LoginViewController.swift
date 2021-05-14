@@ -11,14 +11,11 @@ import AuthenticationServices
 
 class LoginViewController: UIViewController, ASWebAuthenticationPresentationContextProviding {
     
-    @IBOutlet weak var LoggedInAs: UILabel!
-    //@IBOutlet weak var LogInButton: UIButton!
     
+    @IBOutlet weak var logInButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        // Do any additional setup after loading the view.
         
     }
     

@@ -26,7 +26,7 @@
         <!--LoginViewController-->
         <scene sceneID="tDE-Ug-Y5h">
             <objects>
-                <viewController id="NO5-3D-R9j" userLabel="LoginViewController" customClass="LoginViewController" sceneMemberID="viewController">
+                <viewController id="NO5-3D-R9j" userLabel="LoginViewController" customClass="LoginViewController" customModule="Moviefy" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="733-tx-no5">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -41,7 +41,7 @@
                                 <rect key="frame" x="240" y="344" width="54" height="118"/>
                                 <state key="normal" title="Log in"/>
                                 <connections>
-                                    <action selector="LoginButtonTapped:" destination="NO5-3D-R9j" eventType="touchUpInside" id="fHf-Zd-4eU"/>
+                                    <action selector="LoginButtonTapped:" destination="NO5-3D-R9j" eventType="touchUpInside" id="Mhl-Vt-69x"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -59,8 +59,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="LogInButton" destination="zPf-Fw-P2g" id="QRj-Gv-fuy"/>
-                        <outlet property="LoggedInAs" destination="Esh-Pc-9KZ" id="abF-a6-6kg"/>
+                        <outlet property="logInButton" destination="zPf-Fw-P2g" id="lQh-q9-hlC"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pkd-Rk-uax" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

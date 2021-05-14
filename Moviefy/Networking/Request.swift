@@ -29,7 +29,7 @@ struct Request {
     static let headers = [
         "Accept":"Application/json",
         "Content-Type":"Applicatoin/json",
-        "Authorizatoin":"e876d92222f5e25dbca0fa994d4bafad"
+        "Authorization": " Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJlODc2ZDkyMjIyZjVlMjVkYmNhMGZhOTk0ZDRiYWZhZCIsInN1YiI6IjYwOTMxNTA5NzY0NmZkMDA3Nzk2OTIwMSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ._8DfzJ7U6oum5nlmSk5gnHQqcO-WTB_aLs4giZLPUi0"
     ]
     
     static func configureRequest(from route: Route, with parameters: [String: Any], and method: HTTPMethod, contains body: Data?) throws -> URLRequest {
@@ -46,8 +46,8 @@ struct Request {
     }
     
     static func configureParametersAndHeaders(parameters: [String: Any]?,
-                                              headers: [String: String]?,
-                                              request: inout URLRequest) throws {
+                                                  headers: [String: String]?,
+                                                  request: inout URLRequest) throws {
         do {
             if let headers = headers, let parameters = parameters {
                 try Encoder.encodeParameters(for: &request, with: parameters)
@@ -56,7 +56,6 @@ struct Request {
         } catch {
             throw NetworkError.encodingFailed
         }
-        
     }
     
     
